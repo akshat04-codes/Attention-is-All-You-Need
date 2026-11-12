@@ -1,0 +1,27 @@
+{
+  "run_name": "test_run",
+  "bleu_scores": {
+    "BLEU-1": 0.45,
+    "BLEU-2": 0.02,
+    "BLEU-3": 0.0,
+    "BLEU-4": 0.0
+  },
+  "sample_translations": [
+    {
+      "source": "a man in an orange hat starring at something .",
+      "reference": "ein mann mit einem orangefarbenen hut , der etwas <unk> .",
+      "hypothesis": "ein ."
+    },
+    {
+      "source": "a boston terrier is running on lush green grass in front of a white fence .",
+      "reference": "ein boston terrier l\u00e4uft \u00fcber <unk> - gr\u00fcnes gras vor einem wei\u00dfen zaun .",
+      "hypothesis": "ein ."
+    },
+    {
+      "source": "a girl in karate uniform breaking a stick with a front kick .",
+      "reference": "ein m\u00e4dchen in einem karateanzug bricht ein brett mit einem tritt .",
+      "hypothesis": "ein ."
+    }
+  ],
+  "test_set_size": 1000
+}
